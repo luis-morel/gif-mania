@@ -1,0 +1,45 @@
+
+For AJAX Homework (Week 3-4)
+
+Giphy URL: https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats
+
+Button Layout and AJAX Activities to Reference
+----------------------------------------------
+ - 06-ajax 	> 07-MovieButtonLayout
+		> 08-LogMovieName
+		> 09-clickJSON
+		> 14-DynamicElements
+		> 15-PausingGifs
+
+
+Button attributes example:
+-------------------------
+ - <div id='buttons'></div>
+ - <button data-person="Tom Hanks">Wiiiilson!</button>
+ - Storing multiple URLs in an image as attributes:
+
+	<img src="https://....gif" 
+	data-still="https://....gif"
+	data-animate="https://....gif"
+	data-state="still" class="gif">
+
+ - Gif state manipulation:
+
+<script type="text/javascript">
+
+ $(".gif").on("click", function() {
+	var state = $(this).attr("data-state");
+	if (state === "still") {
+		$(this).attr("src", $(this).attr("data-animate"));
+
+		$(this).attr("data-state", "animate");
+	} else {
+
+		$(this).attr("src", $(this).attr("data-still"));
+
+		$(this).attr("data-state", "still");
+
+	}
+ });
+
+</script>
