@@ -7,6 +7,8 @@ $(document).ready(function () {
 
     function renderButtons() {
 
+        $("#buttons").empty();
+
         for (let i = 0; i < gifTopics.length; i++) {
             var button = $("<button>")
             button.addClass("buttons");
