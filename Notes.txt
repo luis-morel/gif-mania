@@ -3,6 +3,10 @@ For AJAX Homework (Week 3-4)
 
 Giphy URL: https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats
 
+https://api.giphy.com/v1/gifs/search?&q=Avengers&limit=10&api_key=dc6zaTOxFJmzC
+
+DIVS: #buttons, #gifInput, #gifs
+
 Button Layout and AJAX Activities to Reference
 ----------------------------------------------
  - 06-ajax 	> 07-MovieButtonLayout

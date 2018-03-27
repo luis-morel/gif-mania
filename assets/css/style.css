@@ -1,0 +1,56 @@
+/* Header Styling */
+.jumbotron {
+    background-color: rgb(89,58,122);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+}
+
+/* Button Styling */
+input[type=submit] {
+    margin-top: 10px;
+}
+.buttons {
+    min-width: 115px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(89,58,122);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+.buttons:active {
+    transform: translateY(4px);
+}
+.buttons:hover {
+    background: palevioletred;
+}
+
+/* Panel Styling */
+.panel {
+    min-height: 112px;
+}
+.panel-body {
+    padding: 10px;
+}
+.panel-heading {
+    padding: 5px 10px;
+}
+.panel-title {
+    color: rgb(89,58,122);
+    font-weight: bold;
+}
+
+/* Gif Styling */
+.gifs {
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.images {
+    color: rgb(89,58,122);
+    float: left;
+}
