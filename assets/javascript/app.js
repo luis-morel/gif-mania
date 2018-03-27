@@ -4,7 +4,6 @@ $(document).ready(function () {
         "Angry Birds", "Flying", "Planes", "Food", "Steak", "Bacon",
         "Burgers"];
 
-
     function renderButtons() {
 
         $("#buttons").empty();
@@ -51,7 +50,6 @@ $(document).ready(function () {
             };
 
         });
-
 
     };
 
