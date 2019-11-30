@@ -54,3 +54,12 @@ input[type=submit] {
     color: rgb(89,58,122);
     float: left;
 }
+
+/* Table Styling */
+.instCol1 {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.instBody {
+    line-height: 1.75;
+}
