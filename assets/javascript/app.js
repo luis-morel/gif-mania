@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    var gifTopics = ["Cats", "Birds", "Baseball", "Yankees", "Mets",
-        "Angry Birds", "Flying", "Planes", "Food", "Steak", "Bacon",
+    var gifTopics = ["Cats", "Dogs", "Birds", "Baseball", "Yankees", "HTML",
+        "CSS", "JavaScript", "ReactJS", "Flying", "Planes", "Bacon",
         "Burgers"];
 
     function renderButtons() {
