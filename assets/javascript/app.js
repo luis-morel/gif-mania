@@ -18,9 +18,10 @@ $(document).ready(function () {
 
     function renderGifs() {
 
-        var apiKey = "&api_key=dc6zaTOxFJmzC";
-        var category = $(this).attr("data-category");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?&q=" + category + "&limit=10" + apiKey;
+        let apiKey = "LrzymbiEtQ05WJjWstDIIzydCnDMARnZ";
+        let apiCallLimit = 10;
+        let category = $(this).attr("data-category");
+        let queryURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${category}&limit=${apiCallLimit}`
 
         $.ajax({
             url: queryURL,
